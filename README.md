@@ -40,27 +40,23 @@ This project is an AI-powered content summarization and analysis tool that provi
    cd ai-content-summarization
 Install the dependencies for the backend:
 
-bash
-Copy code
+```bash
 cd backend
 npm install
 Install the dependencies for the frontend:
 
-bash
-Copy code
+```bash
 cd ../frontend
 npm install
 Configuration
 Create a .env file in the backend directory with the following content:
 
 env
-Copy code
 COHERE_API_KEY=your_cohere_api_key
 JWT_SECRET=your_jwt_secret
 Create a .env.local file in the frontend directory with the following content:
 
 env
-Copy code
 NEXT_PUBLIC_API_URL=http://localhost:8000
 Running the Application
 Start the backend server:
@@ -74,7 +70,7 @@ The backend server will run on http://localhost:8000.
 Start the frontend development server:
 
 bash
-Copy code
+
 cd ../frontend
 npm run dev
 The frontend development server will run on http://localhost:3000.
